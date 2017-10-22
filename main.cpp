@@ -155,14 +155,14 @@ int main() {
 				}
 				break;
 			case '^':
-				cout << "Enter a figure" << endl;
+				cout << "Enter x figure" << endl;
 				cin >> x1;
 				if (!check(x1)) {
 					cout << pow((double)atoi(x1));
 				}
 				break;
 			case '<':
-				cout << "Enter a figure" << endl;
+				cout << "Enter x figure" << endl;
 				cin >> x1;
 				if (!check(x1)) {
 					cout << rol(atoi(x1)) << endl;

@@ -136,9 +136,7 @@ int main() {
 					cout << "Enter the second figure" << endl;
 					cin >> y1;
 					if (!check(y1)) {
-						if (atoi(y1) != 0) {
-							cout << div(double(atoi(x1)), atoi(y1)) << endl;
-						} else
+						if (atoi(y1) != 0)
 							cout << "Error.There are 0 in the denominator " << endl;
 					}
 				}
